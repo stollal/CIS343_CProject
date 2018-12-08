@@ -1,9 +1,17 @@
+/***********************************************************
+ *@author Ally Stoll
+ *Fall 2018
+ * ***********************************************************/
 #include "file_utils.h"
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
 #include <sys/stat.h>
-
+/*****************************************************************
+ *Main function to call read and write to reverse the file
+ *
+ *@return nothing
+ ****************************************************************/
 int main(int argc, char** argv){
 	char* buff;
 	int fileSize;
